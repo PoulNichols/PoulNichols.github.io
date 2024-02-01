@@ -8,16 +8,18 @@ h1 {
 }
 
 img{
-  width:300px;
-  height:200px;
-  border:10px solid green;
-  color:white;
-  border-radius:20px;
+   width: 300px;
+  height: 200px;
+  border: 10px solid black;
+  background-color: white; 
+  border-radius: 20px;
   vertical-align: top;
+  align-items: center;
 }
 
-figcaption{
-  width: 315px;
+User
+figcaption {
+  width: 315px;
   text-align: left;
   margin-left: 25px;
   color:black;
