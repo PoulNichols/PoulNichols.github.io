@@ -1,0 +1,110 @@
+
+html {
+background-color: rgb(244, 240, 234);
+
+}
+
+/* Basic style for buttons */
+button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Style for Table of Contents button */
+#table-of-contents {
+    background-color: #0073e6;
+    color: #fff;
+    font-size: 18px;
+    margin-top: 20px;
+    padding: 12px 24px;
+    display: none;  /* Hidden by default */
+}
+
+/* Centering the article navigation using Flexbox */
+.menu {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+/* Font styling */
+h1 {
+    font-size: 2.5em;
+    color: #284829;
+}
+
+p {
+    font-size: 1.5em; 
+    padding: 10px 0;
+    display: block;
+    margin: 20px auto;
+    width: 50%;
+}
+
+figcaption {
+    margin: 10px 0;
+}
+
+/* Squirrel image and general .jpg image style */
+img {
+    max-width: 40%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
+    margin: 1.5em 0 1.5em;
+}
+
+/* Additional style for squirrel image only */
+#squirrel-image {
+    display: block;
+    margin: 20px auto;
+    width: 70%;
+}
+
+/* Content area style */
+#content {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Remove marker styling for all <ul> lists */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Styles for Table of Contents link */
+ul li a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #79670aad; /* Distinct color */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+ul li a:hover {
+    background-color: #a1b159; /* Hover color */
+}
+
+/* Centering the Table of Contents link if needed */
+ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none; 
+    padding: 0;
+}

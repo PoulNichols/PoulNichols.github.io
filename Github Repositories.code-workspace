@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"name": "IT115_VsCode_UI: master",
+			"path": "../IT115_VsCode_UI.worktrees/master"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Github Repositories"
+	}
+}
