@@ -1,0 +1,16 @@
+name: Hello World Workflow
+on: [push]
+jobs:
+  hello_world_1:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Hello World Step 1
+        run: echo "Hello World 1"
+        
+  hello_world_2:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Hello World Step 2
+        run: echo "Hello World 2"
+    
+  
