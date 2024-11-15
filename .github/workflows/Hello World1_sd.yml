@@ -3,7 +3,7 @@ name: Hello World
 #  Events
 
   on:
-  push:
+    push:
     branches:
       - main
 
