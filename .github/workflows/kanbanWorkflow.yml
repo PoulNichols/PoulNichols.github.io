@@ -10,6 +10,8 @@ jobs:
   kanban-update:
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
       # Add "To Do" label when an issue is opened
       - name: Add "To Do" label to new issues
         if: github.event_name == 'issues' && github.event.action == 'opened'
@@ -19,5 +21,5 @@ jobs:
       # Add "In Review" label when a PR is opened
       - name: Add "In Review" label to new PRs
         if: github.event_name == 'pull_request' && github.event.action == 'opened'
-        run: echo "Adding 'In Review' label"   
+        run: gh pr edit ${{ githuh.event.pull_request.number }} --add-label "In Review"   
 
