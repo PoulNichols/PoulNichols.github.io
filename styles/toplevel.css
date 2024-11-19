@@ -1,22 +1,124 @@
-
 body {
-  background-color: linen;
+  background-color: #faf0e6;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 h1 {
-  color: navy;
+  color: #044b97;
+  text-align: center;
+  padding-top: 20px;
+  font-size: 36px;
+  margin-bottom: 10px;
+  transition: color 1s;
 }
 
-img{
-  width:300px;
-  height:200px;
-  border:10px solid green;
-  color:white;
-  border-radius:20px;
+h1:hover {
+  color: #00a6ff;
 }
 
-figcaption{
-  width: 315px;
-  text-align: left;
-  margin-left: 50px;
+nav {
+  background-color: #4CAF50;
+  padding: 10px 0;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: #ffffff;
+  font-size: 18px;
+  text-decoration: none;
+  padding: 10px 20px;
+  transition: background-color 3s ease, border-radius 3s ease;
+}
+
+nav ul li a:hover {
+  background-color: #45a049;
+  border-radius: 5px;
+}
+
+.img-container img {
+  width: 300px;
+  height: 200px;
+  border: 5px solid#008000;
+  color: #ffffff;
+  border-radius: 20px;
+  display: block;
+  margin: 0 auto;
+  transition: width 3s ease-in-out, border-color 3s ease-in-out, border-radius 2s ease;
+}
+
+.img-container:hover img {
+  border-radius: 80px 0 80px;
+  width: 300px;
+  border-color: #5ee393;
+}
+
+.img-container figcaption {
+  width: 315px;
+  text-align: center;
+  margin: 10px auto;
+  color: #000000;
+  font-style: italic;
+  font-size: 30px;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 4s ease, visibility 0s 4s ease;
+}
+
+.img-container:hover figcaption {
+  color: #000000;
+  opacity: 1;
+  visibility: visible;
+  transition: opacity 4s ease, visibility 0s 0s ease;
+}
+
+.img-container p#alttext {
+  font-size: 24px;
+  color: #040e30;
+  text-align: center;
+  opacity: 0;
+  visibility: hidden;
+  transition: color 10s, opacity 6s ease, visibility 0s 6s ease;
+}
+
+.img-container:hover p#alttext {
+  opacity: 1;
+  visibility: visible;
+  transition: opacity 6s ease, visibility 6s 0s ease;
+}
+
+ul {
+  text-align: center;
+  padding: 0;
+}
+
+ul li {
+  list-style-type: none;
+  display: inline-block;
+  margin: 0 10px;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #0a1a51;
+  font-size: 18px;
+  padding: 2px 10px;
+  transition: color 1s ease, text-shadow 1s ease;
+}
+
+ul li a:hover {
+  color: #0562af;
+  text-shadow: 2px 2px 2px #04b583;
 }
