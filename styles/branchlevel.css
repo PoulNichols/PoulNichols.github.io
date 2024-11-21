@@ -1,16 +1,16 @@
 
 body {
-  background-color: lightcyan;
+  background-color: darkslategray;
 }
 
 h1 {
-  color: darkblue;
+  color: lightblue;
 }
 
 img{
   width:300px;
   height:200px;
-  border:10px solid green;
+  border:10px solid forestgreen;
   color:white;
   border-radius:20px;
   vertical-align: top;
@@ -20,7 +20,7 @@ figcaption{
   width: 315px;
   text-align: left;
   margin-left: 25px;
-  color:black;
+  color:lightgray;
   font-style: italic;
   font-size: 30px;
 }
