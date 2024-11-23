@@ -1,12 +1,22 @@
 
 body {
-  background-color: darkslategray;
+  background-color: #e0ffff;
+  font-family: Arial, sans-serif;
+  margin:0;
+  padding: 0;
 }
 
 h1 {
-  color: lightblue;
+  color: #044b97;
+  text-align: center;
+  padding-top: 20px;
+  font-size: 10px;
+  margin-bottom: 10px
+  transition: color ls ease;
+  
 }
-
+h1:hover {
+  color: #0049e7
 img{
   width:300px;
   height:200px;
