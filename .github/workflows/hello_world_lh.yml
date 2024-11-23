@@ -1,0 +1,21 @@
+name: Hello World Workflow
+
+on:
+  push:
+    branches:
+      - Lorraine_github_workflows
+
+jobs:
+  job1:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print Hello World 1
+        run: echo "Hello World 1"
+        shell: bash
+
+  job2:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print Hello World 2
+        run: echo "Hello World 2"
+        shell: bash

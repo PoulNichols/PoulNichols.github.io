@@ -1,0 +1,20 @@
+name: Hello World Workflow
+
+on:                         # Define events to trigger the workflow
+  push:                     # Trigger workflow on a push
+    branches:
+      - main
+      - Safia_github_workflows
+
+jobs:                       # Define jobs to run in the workflow
+  hello-world-1:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print Hello World 1
+        run: echo "Hello World 1"
+
+  hello-world-2:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print Hello World 2
+        run: echo "Hello World 2"
