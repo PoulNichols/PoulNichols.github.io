@@ -1,26 +1,49 @@
 
 body {
   background-color: lightcyan;
+  font-family: Arial, sans-seif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
 }
 
 h1 {
   color: darkblue;
+  margin-top: 20px;
 }
 
-img{
-  width:300px;
-  height:200px;
-  border:10px solid green;
-  color:white;
-  border-radius:20px;
-  vertical-align: top;
+.outdoor-Products {
+  background: url('forest.jjpg') no-repeat center center/cover;
+  padding: 50px 20px;
+  color: white;
 }
 
-figcaption{
-  width: 315px;
-  text-align: left;
-  margin-left: 25px;
-  color:black;
+.outdoor-Products h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.Product {
+  display: inline-block;
+  margin:20px;
+  text-align: center;
+}
+
+.Product img {
+  width: 300px;
+  height: 200px;
+  border: 5px solid green;
+  border-radius: 15px;
+
+}
+
+.Product figcaption {
+  width: 300px;
+  margin-top: 10px;
+  color: white;
   font-style: italic;
-  font-size: 30px;
+  font-size: 18px;
+
 }
+  
+  
