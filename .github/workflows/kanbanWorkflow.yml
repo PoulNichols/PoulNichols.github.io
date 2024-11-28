@@ -1,0 +1,22 @@
+name: Kanban Workflow
+
+on:
+  issues:
+    types: [opened]
+  pull_request:
+    types: [opened, closed]
+
+jobs:
+  kanban-update:
+    runs-on: ubuntu-latest
+    steps:
+      # Add "To Do" label when an issue is opened
+      - name: Add "To Do" label to new issues
+        if: github.event_name == 'issues' && github.event.action == 'opened'
+        run: echo "Adding 'To Do' label"
+          
+
+      # Add "In Review" label when a PR is opened
+      - name: Add "In Review" label to new PRs
+        if: github.event_name == 'pull_request' && github.event.action == 'opened'
+        run: echo "Adding 'In Review' label" 
