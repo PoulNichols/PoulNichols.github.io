@@ -2,17 +2,10 @@ Team 1 (Wizards of Seattle)
 
 1. Project Overview
 
-    Project Name: MathEzPz
-    Project Description: Can calculate different mathematical equations and problems, unlike the traditional calculator
-    Project Timeline: 
-           Phase 1: Research and collect as much equations as possible 
-           Phase 2: Create the input for user to type in and implement the calculation system along with the equations
-           Phase 3: Launch the website 
-    Project Goals:
-    (Specific objectives the project aims to achieve)
-        Goal 1:
-        Goal 2:
-        Goal 3:
+    Project Name: Great Outdoors
+    Project Description: An easy to use multilingual website that can share travel information with friends, family, and potential customers
+    Project Timeline: From 2/6/2025 to 3/17/2025
+    Project Goal: Make tourism in Washington accessible to people from different countries
 
 2. Team Members
 
@@ -77,7 +70,7 @@ Team 1 (Wizards of Seattle)
 
     Role 4: Team Support 
     Responsibilities: to work together and help teammates in  problem solving, to give support in case of pressure
-    Person(s) responsible:
+    Person(s) responsible: Raine Nash
 
 
 7. Standards of Quality
@@ -93,23 +86,9 @@ Team 1 (Wizards of Seattle)
     Goal 2: Launch the project
         Milestone 2: Together with the team, discuss, test and make sure that everything works as intended 
 
-9. User Stories
-(Add User Stories in this section as part of your project requirements and goals)
+9. User Story
 
-User stories describe the features or functions of the project from the perspective of the end user. Each story includes a "who," "what," and "why" to ensure the feature adds value for the user.
-
-Here are some example user stories:
-
-    User Story 1:
-    As a user, I want to log into my account so that I can access my personalized dashboard.
-
-    User Story 2:
-    As a shopper, I want to be able to filter products by price and category so that I can find what I’m looking for faster.
-
-    User Story 3:
-    As a team member, I want to track the progress of tasks so that I can stay updated on the project’s timeline.
-
-(The team can define additional user stories that reflect the main features required for the project)
+As an international tourist, I want to find a website for visitors that supports my language so I can easily access information.
 
 10. Team Commitment
 
