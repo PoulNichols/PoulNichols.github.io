@@ -1,1 +1,8 @@
-# PoulNichols.github.io
+<<<<<<< HEAD
+=======
+# GreatOutdoors
+
+Sid
+
+Kokob
+Bennet
